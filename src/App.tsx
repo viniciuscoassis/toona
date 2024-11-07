@@ -37,7 +37,7 @@ function App() {
       </button>
       <div className="social-buttons">
         <a
-          href="https://twitter.com/toona"
+          href="https://x.com/memetoona"
           target="_blank"
           rel="noopener noreferrer"
         >
