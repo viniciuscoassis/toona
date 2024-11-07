@@ -1,7 +1,4 @@
-import {
-  faTelegram,
-  faTwitter
-} from "@fortawesome/free-brands-svg-icons";
+import { faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faChartLine, faPaintBrush } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
@@ -10,16 +7,10 @@ function App() {
   return (
     <>
       <div className="header">
-        <img
-          src="/logo.png"
-          alt="Toona Image 1"
-          className="main-image"
-        />
-        <img
-          src="/fam.jpeg"
-          alt="Toona Image 2"
-          className="main-image"
-        />
+        <img src="/logo.png" alt="Toona Image 1" className="main-image" />
+        <p className="description">lil fish swimming in the sea...</p>
+
+        <img src="/fam.jpeg" alt="Toona Image 2" className="main-image" />
       </div>
       {/* <h1>Welcome to Toona</h1> */}
       <button
