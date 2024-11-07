@@ -14,13 +14,11 @@ function App() {
           src="/logo.png"
           alt="Toona Image 1"
           className="main-image"
-          style={{ width: "50%" }}
         />
         <img
           src="/fam.jpeg"
           alt="Toona Image 2"
           className="main-image"
-          style={{ width: "50%" }}
         />
       </div>
       {/* <h1>Welcome to Toona</h1> */}
