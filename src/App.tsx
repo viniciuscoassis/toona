@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="header">
-        <img src="/logo.png" alt="Toona Image 1" className="main-image" />
+        <img src="/logo1.png" alt="Toona Image 1" className="main-image main-image-1" />
         <p className="description">lil fish swimming in the sea...</p>
 
         <img src="/fam.jpeg" alt="Toona Image 2" className="main-image" />
