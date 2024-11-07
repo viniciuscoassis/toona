@@ -46,7 +46,7 @@ function App() {
           </button>
         </a>
         <a
-          href="https://t.me/@toonasonic"
+          href="https://t.me/toonasonic"
           target="_blank"
           rel="noopener noreferrer"
         >
