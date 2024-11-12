@@ -17,7 +17,7 @@ function App() {
         className="buy-button"
         onClick={() =>
           window.open(
-            "https://degen.express/fantom/token/0x7F19C5adB254601178BeBcC5353A719dbc1B119A",
+            "https://equalizer.exchange/swap?fromToken=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE&toToken=0x7F19C5adB254601178BeBcC5353A719dbc1B119A",
             "_blank"
           )
         }
