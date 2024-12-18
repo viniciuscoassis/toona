@@ -1,5 +1,5 @@
 import { faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faChartLine, faPaintBrush } from "@fortawesome/free-solid-svg-icons";
+import { faChartLine, faPaintBrush, faArrowRightArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
 
@@ -12,12 +12,11 @@ function App() {
 
         <img src="/fam.jpeg" alt="Toona Image 2" className="main-image" />
       </div>
-      {/* <h1>Welcome to Toona</h1> */}
       <button
         className="buy-button"
         onClick={() =>
           window.open(
-            "https://equalizer.exchange/swap?fromToken=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE&toToken=0x7F19C5adB254601178BeBcC5353A719dbc1B119A",
+            "https://app.metropolis.exchange/swap?inputCurrency=S&outputCurrency=0xf4f9c50455c698834bb645089dbaa89093b93838",
             "_blank"
           )
         }
@@ -53,12 +52,21 @@ function App() {
           </button>
         </a>
         <a
-          href="https://dexscreener.com/fantom/0x7F19C5adB254601178BeBcC5353A719dbc1B119A"
+          href="https://dexscreener.com/sonic/0xe8299e54e6b699bcf3195f179d9a00216ea0f8ac"
           target="_blank"
           rel="noopener noreferrer"
         >
           <button className="social-button">
             <FontAwesomeIcon icon={faChartLine} />
+          </button>
+        </a>
+        <a
+          href="https://theflipside.cc/#/bridge?token=Toona"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="social-button">
+            <FontAwesomeIcon icon={faArrowRightArrowLeft} />
           </button>
         </a>
       </div>
